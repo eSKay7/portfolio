@@ -32,7 +32,7 @@ export default function Projects(){
                 "Designed a fully responsive portfolio with PS5-inspired futuristic UI & custom JS card-carousel navigation.",
                 "Applied modern UI/UX (glass morphism, blur effects) and integrated project highlights with GitHub links."
             ],
-            link: "https://github.com/eSKay7/portfolio-website"
+            link: "https://github.com/eSKay7/portfolio"
         }
     ]
 
