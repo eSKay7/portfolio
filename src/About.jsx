@@ -1,6 +1,7 @@
 import React from "react"
 import Degree from "./Degree"
 import Awards from "./Awards"
+import aboutPhoto from "../public/aboutPhoto.png"
 
 export default function About(){
     const [panel, setPanel] = React.useState(null)
@@ -50,7 +51,7 @@ export default function About(){
                     </div>
                 </div>
                 <div className="about-img">
-                    <img src="/aboutPhoto.png" alt="Sarthak" />
+                    <img src={aboutPhoto} alt="Sarthak" />
                 </div>
             </div>
         </section>
