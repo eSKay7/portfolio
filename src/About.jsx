@@ -1,7 +1,7 @@
 import React from "react"
 import Degree from "./Degree"
 import Awards from "./Awards"
-import aboutPhoto from "../public/aboutPhoto.png"
+import aboutPhoto from "./assets/aboutPhoto.png"
 
 export default function About(){
     const [panel, setPanel] = React.useState(null)
