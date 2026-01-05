@@ -33,6 +33,16 @@ export default function Projects(){
                 "Applied modern UI/UX (glass morphism, blur effects) and integrated project highlights with GitHub links."
             ],
             link: "https://github.com/eSKay7/portfolio"
+        },
+        {
+            title: "AWS Deployed E-Commerce Demo",
+            stack: ["Node.js", "Express", "MySQL", "AWS Elastic Beanstalk", "AWS RDS"],
+            timeline: "Jan 2026",
+            summary: [
+                "Deployed a Node.js e-commerce demo on AWS Elastic Beanstalk with MySQL RDS backend, demonstrating cloud architecture and practical environment setup.",
+                "Configured environment variables, EC2 roles, and optionally S3 for image hosting to showcase secure AWS service integration and deployment workflow."
+            ],
+            link: "https://github.com/eSKay7/aws-ecommerce-demo"
         }
     ]
 
