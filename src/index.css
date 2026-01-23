@@ -98,8 +98,8 @@ section p {
 }
 
 .projects-section {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
   justify-content: center;
@@ -107,7 +107,7 @@ section p {
 }
 
 .card {
-  flex: 0 0 calc(33.333% - 20px);
+  flex: 1;
   min-width: 300px;
   display: flex;
   flex-direction: column;
