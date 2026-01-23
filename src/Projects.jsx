@@ -5,6 +5,16 @@ export default function Projects(){
 
     const projects = [
         {
+            title: "Smart Music Queue",
+            stack: ["Python", "Flask", "Scikit-learn", "JSON"],
+            timeline: "Jan 2026",
+            summary: [
+                "Built a smart music queue system that learns user preferences from playback interactions (early skips, adds, full plays, removals) to dynamically rank songs.",
+                "Implemented a logistic regression model with custom feature engineering to predict user preference probabilities and drive adaptive queue ordering in real time."
+            ],
+            link: "https://github.com/eSKay7/smart-music-queue"
+        },
+        {
             title: "Memory Card Game",
             stack: ["Java", "Android Studio"],
             timeline: "Sept 2023 – Dec 2023",
