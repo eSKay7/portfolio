@@ -99,6 +99,7 @@ section p {
 
 .projects-section {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
   justify-content: center;
@@ -106,7 +107,7 @@ section p {
 }
 
 .card {
-  flex: 1;
+  flex: 0 0 calc(33.333% - 20px);
   min-width: 300px;
   display: flex;
   flex-direction: column;
