@@ -9,7 +9,7 @@ export default function Skills(){
             list: ["VS Code","Git","Android Studio","MySQL","Power BI","Docker","Shopify","Wordpress"]
         },
         {
-            title:"Technologies/Frameworks",
+            title:"Technologies & Frameworks",
             list: ["React.js","TypeScript","Node.js","Flask","Selenium","Cucumber","JUnit","Linux","Windows","MacOS"]
         }
     ]
